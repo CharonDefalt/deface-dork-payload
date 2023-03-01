@@ -9,8 +9,6 @@ exploit site :
 
 target.com/jscripts/FCKeditor/editor/filemanager/upload/test.html
 
-################################################################################################
-
 inurl:"/showcatrows.php?CategoryID="
 
 "><marquee><h1>Your text</h1></mmarque>
