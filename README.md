@@ -47,7 +47,7 @@ articles | ThA"me Arthemia de Michael Jubel | Stats''
 
 + intext:''Powered by WordPress ( WordPress Deutschland ) - Handcoded by
 
-# Exploit :
+ Exploit :
 
 /wp-content/plugins/fckeditor-for-wordpress-plugin/filemanager/connectors/uploadtest.html
 
@@ -66,11 +66,9 @@ articles | ThA"me Arthemia de Michael Jubel | Stats''
 Select PHP extension and then Try to upload as .asp;.jpg filename
 shell extension.
 
-Note : This plugin fckeditor-for-wordpress-plugin contains a very serious
-vulnerability that allowed hackers to gain full control a
+#Bypass-admin
 
-modify, upload and execute files on any website running WordPress. With the
-plugin installed on a certain website,
+Dork : "restaurants_details.php?id=" |
 
-a hacker or malicious person can gain access to the web server via HTTP
-through a backdoor in the pluginas directory.
+Exploit : /admin/dashboard.php
+
