@@ -12,7 +12,17 @@ BAD AZ INKARA LINKI KE BEHET MIDE RO COPY MIKONI VA BAD AZ .COM PASTE MIKONI TA 
 
 DorK SQL  (( AZ GOOGLE KOMK BEGIR ))
 
-php?=id
+inurl:php?=id
+inurl:php?id=
+inurl:news.php?id=
+inurl:new.php?id=
+inurl:pages.php?id=
+inurl:post.php?id=
+inurl:events.php?id=
+inurl:details.php?id=
+inurl:blog.php?id=
+inurl:show.php?id=
+
 
 sqlmap -u URL --dbs
 
