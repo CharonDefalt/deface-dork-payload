@@ -22,7 +22,7 @@ inurl:events.php?id=
 inurl:details.php?id=
 inurl:blog.php?id=
 inurl:show.php?id=
-
+inurl:"/sys/sitearticles/page-articles.php?i="
 
 sqlmap -u URL --dbs
 
